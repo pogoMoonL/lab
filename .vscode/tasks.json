@@ -10,8 +10,12 @@
                 "-stdlib=libc++",
                 "-g",
                 "*.cpp",
+                "-lcrypto",
+                "-lssl",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+
+                
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
