@@ -7,16 +7,10 @@
             "command": "/usr/bin/clang++",
             "args": [
                 "-std=c++17",
-                "-stdlib=libc++",
-                "-Wwritable-strings",
                 "-g",
-                "*.cpp",
-                "-lcrypto",
-                "-lssl",
+                "src/*.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
-
-                
+                "${fileDirname}/${fileBasenameNoExtension}",   
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

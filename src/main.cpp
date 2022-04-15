@@ -4,12 +4,7 @@
 #include "Ball.h"
 #include "RamTwoDim.h"
 
-#include "gtest/gtest.h"
 
-TEST(testMath, myCubeTest)
-{
-    EXPECT_EQ(1000, 1000);
-}
 
 template <typename T, size_t n>
 void print_array(T const (&arr)[n])
@@ -32,7 +27,7 @@ int main(int argc, char **argv)
 
     auto lambda = []()
     {
-        std::cout << "Hello, Lambda" << std::endl;
+        std::cout << "Hello, Lambda Nick" << std::endl;
     };
 
     RamTwoDim nick2;
