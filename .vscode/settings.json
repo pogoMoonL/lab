@@ -69,7 +69,11 @@
         "__tree": "cpp",
         "fstream": "cpp",
         "iomanip": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "cassert": "cpp",
+        "map": "cpp",
+        "numeric": "cpp",
+        "ramdomtwodimensional.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
