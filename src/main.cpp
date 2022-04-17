@@ -4,14 +4,12 @@
 #include "Ball.h"
 #include "RamTwoDim.h"
 
-
-
 template <typename T, size_t n>
 void print_array(T const (&arr)[n])
 {
     for (size_t i = 0; i < n; i++)
     {
-        std::cout << arr[i] << ' ';
+        std::cout << arr[i] << ' ' << std::endl;
     }
 }
 
