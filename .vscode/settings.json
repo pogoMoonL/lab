@@ -73,7 +73,10 @@
         "cassert": "cpp",
         "map": "cpp",
         "numeric": "cpp",
-        "ramdomtwodimensional.h": "c"
+        "ramdomtwodimensional.h": "c",
+        "any": "cpp",
+        "condition_variable": "cpp",
+        "variant": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
